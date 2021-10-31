@@ -5,8 +5,17 @@
     font-family: "verdana", sans-serif;
 }
 
+.super, #fourth {
+    font-size: 24px;
+}
+
 #second {
     color: blue;
     background-color: white;
     font-size: 36px;
+}
+
+#fourth {
+    color: rgb(110, 204, 131);
+    background-color: white;
 }
