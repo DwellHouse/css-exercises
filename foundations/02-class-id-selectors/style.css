@@ -1,0 +1,12 @@
+.odd,
+.super {
+    color:black;
+    background-color: rgb(209, 121, 197);
+    font-family: "verdana", sans-serif;
+}
+
+#second {
+    color: blue;
+    background-color: white;
+    font-size: 36px;
+}
