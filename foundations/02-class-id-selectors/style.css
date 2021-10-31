@@ -16,6 +16,7 @@
 }
 
 #fourth {
-    color: rgb(110, 204, 131);
-    background-color: white;
+    color: black;
+    background-color: rgb(146, 240, 158);
+    font-weight: bold;
 }
