@@ -2,6 +2,7 @@ body {
   background: #eee;
   font-family: sans-serif;
   margin: 8px white;
+  border: 20px white;
 }
 
 /** .outerBorder {
@@ -10,27 +11,32 @@ body {
 } **/
 
 .card {
-  width: 400px;
+  width: 500px;
   background: #fff;
-  margin: 0px auto;
+  margin: auto;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 10px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 15px;
   margin: 16px auto;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 25px;
+  text-align: center;
 }
 
 button {
   display: block;
   background: white;
-  border: 1px solid #eee;
+  border: 10px solid white;
+  margin: auto;
   
 }
