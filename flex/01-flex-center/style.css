@@ -5,6 +5,8 @@
   height: 300px;
   /** Added below **/
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box {
@@ -15,6 +17,4 @@
   width: 80px;
   height: 80px;
   /** Added below **/
-  
-
 }
