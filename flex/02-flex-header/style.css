@@ -2,8 +2,8 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  align-items: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   
 }
 
@@ -13,22 +13,24 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  align-items: center;
+  
 }
 
-.left-links {
+/** .left-links {
   justify-content: flex-start;
-  flex: 1;
+  
 }
 
 .right-links {
   align-items: flex-end;
-  flex: 0;
-}
+   
+} **/
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  justify-items: center;
 }
 
 a {
