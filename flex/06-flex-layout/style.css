@@ -5,6 +5,38 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /** I added **/
+  display: flex;
+  flex-direction: column;
+  /** align-items: stretch; **/
+}
+
+/** I added **/
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 16px;
+}
+
+/** I added **/
+.footer {
+  background-color: #eeeeee;
+  padding: 0px;
+}
+
+/** I added **/
+.left-links, .right-links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
 img {
@@ -16,6 +48,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 12px;
 }
 
 input {
